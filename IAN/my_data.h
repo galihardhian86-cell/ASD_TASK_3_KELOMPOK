@@ -1,7 +1,9 @@
+
 #ifndef MY_DATA_H_INCLUDED
 #define MY_DATA_H_INCLUDED
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 /**
@@ -20,8 +22,10 @@ struct mytype {
     */
     //=================================================
     // YOUR CODE STARTS HERE
-    your code here
-
+    int ID;
+    string name;
+    int rank;
+    float score;
     // YOUR CODE ENDS HERE
     //=================================================
 };
